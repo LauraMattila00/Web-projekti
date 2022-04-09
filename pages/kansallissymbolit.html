@@ -109,85 +109,101 @@
                                 <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
                         </li>
                     </ul>
-                    <hr>
-                    <div class="dropdown pb-4">
-                        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                            <span class="d-none d-sm-inline mx-1">loser</span>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                            <li><a class="dropdown-item" href="#">New project...</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Sign out</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <!-- Content area -->
             <div class="col py-3">
-                <div class="col">
-                    <h1>Suomen kansallissymbolit</h1>
-                    <p>Tässä tietovisassa pääset testaamaan, kuinka hyvin tunnet Suomen kansallissymbolit. </p>
-                </div>
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-md">
-                            <section id="question1">
+                            <h1>Suomen kansallissymbolit</h1>
+                            <p>Tässä tietovisassa pääset testaamaan, kuinka hyvin tunnet Suomen kansallissymbolit. </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <section class="questions" id="question1">
                                 <h3>1. Mikä on Suomen kansalliseläin?</h3>
-                                <button class="button choice1">Poro</button>
-                                <button class="button choice2">Norppa</button>
-                                <button class="button choice3">Karhu</button> <br>
-                                <button id="answer1">Vastaa <i class="fa-solid fa-check fa-beat"></i></button>
+                                <div class="choices"><input type="radio" name="choices1" id="choice1">Poro</input></div>
+                                <div class="choices"><input type="radio" name="choices1" id="choice2">Norppa</input></div>
+                                <div class="choices"><input type="radio" name="choices1" id="choice3">Karhu</input></div>
+                                <div><button class="button" id="button1" onclick="question1()">Vastaa</button></div>
                             </section>
+                            <div class="infos" id="info1">
+                                <h5 id="rightwrong1"></h5>
+                                <p>Karhu on Euroopan suurin petoeläin. Karhu viihtyy parhaiten metsissä ja soilla.<br> Karhu on kaikkiruokainen - se syö marjoja, viljaa, kalaa, lintuja ja nisäkkäitä. Karhu nukkuu lumisen ajan talviunta.</p>
+                                <img src="/images/karhu.jpg" alt="karhu" class="img-fluid" id="karhu">
+                                <p>Olet vastannut <span id="questions1"></span> / 5 kysymykseen.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md">
-                            <section id="question2">
+                            <section class="questions" id="question2">
                                 <h3>2. Mikä on Suomen kansallislintu?</h3>
-                                <button class="button choice4">Metso</button>
-                                <button class="button choice5">Laulujoutsen</button>
-                                <button class="button choice6">Kyyhkynen</button> <br>
-                                <button id="answer2">Vastaa <i class="fa-solid fa-check fa-beat"></i></button>
+                                <div class="choices"><input type="radio" name="choices2" id="choice4">Metso</input></div>
+                                <div class="choices"><input type="radio" name="choices2" id="choice5">Laulujoutsen</input></div>
+                                <div class="choices"><input type="radio" name="choices2" id="choice6">Kotka</input></div>
+                                <div><button class="button" id="button2" onclick="question2()">Vastaa</button></div>
                             </section>
+                            <div class="infos" id="info2">
+                                <h5 id="rightwrong2"></h5>
+                                <p>Laulujoutsen kuuluu puolisukeltajiin. Se hakee ravintoa järven pohjasta pitkän kaulansa avulla.<br>Laulujoutsen syö vesikasveja ja niiden juuria, vedessä ja maalla eläviä pieniä selkärangattomia sekä siemeniä ja marjoja. <br>Laulujoutsen on muuttolintu, joka siirtyy talven ajaksi eteläiselle Itämerelle ja Pohjanmeren rannikolle asti.</p>
+                                <!-- laulujoutsenen kuva https://wwf.fi/uutiset/2020/10/lintulahti-lajit/ Petteri Tolvanen / WWF --> 
+                                <img src="/images/laulujoutsen.jpg" alt="laulujoutsen" class="img-fluid" id="laulujoutsen">
+                                <p>Olet vastannut <span id="questions2"></span> / 5 kysymykseen.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md">
-                            <section id="question3">
+                            <section class="questions" id="question3">
                                 <h3>3. Mikä on Suomen kansalliskukka?</h3>
-                                <button class="button choice7">Ruusu</button>
-                                <button class="button choice8">Kielo</button>
-                                <button class="button choice9">Niittyleinikki</button> <br>
-                                <button id="answer3">Vastaa<i class="fa-solid fa-check fa-beat"></i></button>
+                                <div class="choices"><input type="radio" name="choices3" id="choice7">Metsätähti</input></div>
+                                <div class="choices"><input type="radio" name="choices3" id="choice8">Kielo</input></div>
+                                <div class="choices"><input type="radio" name="choices3" id="choice9">Niittyleinikki</input></div>
+                                <div><button class="button" id="button3" onclick="question3()">Vastaa</button></div>
                             </section>
+                            <div class="infos" id="info3">
+                                <h5 id="rightwrong3"></h5>
+                                <p>Kielo kukkii toukokuussa pienin valkoisin kukin, joissa on voimakas ja miellyttävä tuoksu.<br>Syyskesällä kukista kehittyy suuria, oranssinpunaisia marjoja. Muistathan, että kielo on myrkyllinen!</p>
+                                <img src="/images/kielo.jpg" alt="kielo" class="img-fluid" id="kielo">
+                                <p>Olet vastannut <span id="questions3"></span> / 5 kysymykseen.</p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <section class="questions" id="question4">
+                                <h3>4. Mikä on Suomen kansalliseepos?</h3>
+                                <div class="choices"><input type="radio" name="choices4" id="choice10">Kalevala</input></div>
+                                <div class="choices"><input type="radio" name="choices4" id="choice11">Tuntematon sotilas</input></div>
+                                <div class="choices"><input type="radio" name="choices4" id="choice12">Seitsemän veljestä</input></div>
+                                <div><button class="button" id="button4" onclick="question4()">Vastaa</button></div>
+                            </section>
+                            <div class="infos" id="info4">
+                                <h5 id="rightwrong4"></h5>
+                                <p>Kalevala on Elias Lönnrotin kokoama kansalliseepos, joka on täynnä hyvin vanhoja runoja.<br>Runot siirtyivät sukupolvelta toiselle lähinnä laulaen, kunnes Lönnrot kirjoitti ne muistiin ja kokosi kirjaksi.</p>
+                                <img src="" alt="" class="img-fluid" id="">
+                                <p>Olet vastannut <span id="questions4"></span> / 5 kysymykseen.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md">
-                            <section id="question4">
-                                <h3>4. Mikä on Suomen kansallissoitin?</h3>
-                                <button class="button choice10">Kantele</button>
-                                <button class="button choice11">Viulu</button>
-                                <button class="button choice12">Harmonikka</button> <br>
-                                <button id="answer4">Vastaa<i class="fa-solid fa-check fa-beat"></i></button>
-                                <button>Vastaa</button>
+                            <section class="questions" id="question5">
+                                <h3>5. Mikä on Suomen kansallissoitin?</h3>
+                                <div class="choices"><input type="radio" name="choices5" id="choice13">Viulu</input></div>
+                                <div class="choices"><input type="radio" name="choices5" id="choice14">Harmonikka</input></div>
+                                <div class="choices"><input type="radio" name="choices5" id="choice15">Kantele</input></div>
+                                <div><button class="button" id="button5" onclick="question5()">Vastaa</button></div>
                             </section>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md">
-                            <section id="question5">
-                                <h3>5. Mikä on Suomen kansallisruoka?</h3>
-                                <button class="button choice13">Kalakukko</button>
-                                <button class="button choice14">Ruisleipä</button>
-                                <button class="button choice15">Karjalanpiirakka</button> <br>
-                                <button id="answer5">Vastaa <i class="fa-solid fa-check fa-beat"></i></button>
-                            </section>
+                            <div class="infos" id="info5">
+                                <h5 id="rightwrong5"></h5>
+                                <p>Kantele on perinteinen kielisoitin ja sen historia ulottuu ainakin tuhannen vuoden taakse, ehkä paljon kauemmaksikin.<br>Suomalaisessa kansanrunoudessa kantele on Väinämöisen soitin, ja sillä on näkyvä asema Kalevala-eepoksessa.</p>
+                                <img src="" alt="" class="img-fluid" id="">
+                                <p>Olet vastannut <span id="questions5"></span> / 5 kysymykseen.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
