@@ -13,11 +13,16 @@ let questions = 0;
 // 1. question
 
 function question1 () {
+    document.getElementById("alert1").style.display= "none";
+
     if (document.getElementById("choice3").checked) {
         points++;
         document.getElementById("rightwrong1").innerHTML = "Vastaus on oikein!";
     } else if (document.getElementById("choice1").checked || document.getElementById("choice2").checked) {
         document.getElementById("rightwrong1").innerHTML = "Vastaus on väärin. Oikea vastaus on karhu.";     
+    } else {
+        document.getElementById("alert1").style.display = "block";
+        return;
     }
 
     questions++;
@@ -31,11 +36,16 @@ function question1 () {
 // 2. question
 
 function question2 () {
+    document.getElementById("alert2").style.display= "none";
+
     if (document.getElementById("choice5").checked) {
         points++;
         document.getElementById("rightwrong2").innerHTML = "Vastaus on oikein!";
     } else if (document.getElementById("choice4").checked || document.getElementById("choice6").checked) {
         document.getElementById("rightwrong2").innerHTML = "Vastaus on väärin. Oikea vastaus on laulujoutsen.";     
+    } else {
+        document.getElementById("alert2").style.display = "block";
+        return;
     }
 
     questions++;
@@ -49,11 +59,16 @@ function question2 () {
 // 3. question
 
 function question3 () {
+    document.getElementById("alert3").style.display= "none";
+
     if (document.getElementById("choice8").checked) {
         points++;
         document.getElementById("rightwrong3").innerHTML = "Vastaus on oikein!";
     } else if (document.getElementById("choice7").checked || document.getElementById("choice9").checked) {
         document.getElementById("rightwrong3").innerHTML = "Vastaus on väärin. Oikea vastaus on kielo.";     
+    } else {
+        document.getElementById("alert3").style.display = "block";
+        return;
     }
 
     questions++;
@@ -67,11 +82,16 @@ function question3 () {
 // 4. question
 
 function question4 () {
+    document.getElementById("alert4").style.display= "none";
+
     if (document.getElementById("choice10").checked) {
         points++;
         document.getElementById("rightwrong4").innerHTML = "Vastaus on oikein!";
     } else if (document.getElementById("choice11").checked || document.getElementById("choice12").checked) {
         document.getElementById("rightwrong4").innerHTML = "Vastaus on väärin. Oikea vastaus on Kalevala.";     
+    } else {
+        document.getElementById("alert4").style.display = "block";
+        return;
     }
 
     questions++;
@@ -85,11 +105,16 @@ function question4 () {
 // 5. question
 
 function question5 () {
+    document.getElementById("alert5").style.display= "none";
+
     if (document.getElementById("choice15").checked) {
         points++;
         document.getElementById("rightwrong5").innerHTML = "Vastaus on oikein!";
     } else if (document.getElementById("choice13").checked || document.getElementById("choice14").checked) {
         document.getElementById("rightwrong5").innerHTML = "Vastaus on väärin. Oikea vastaus on kantele.";     
+    } else {
+        document.getElementById("alert5").style.display = "block";
+        return;
     }
 
     questions++;
