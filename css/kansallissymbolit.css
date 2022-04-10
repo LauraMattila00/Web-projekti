@@ -20,9 +20,9 @@ h3 {
 
 .choices {
     display: inline-block;
-    background-color: #a55fa5;
-    border: 2px solid black;
-    border-radius: 8px;
+    background-color: #6fad94;
+    border: none;
+    border-radius: 10px;
     padding: 10px 30px 10px 30px;
     margin: 5px;
 }
@@ -46,8 +46,9 @@ h3 {
 .button {
     display: inline-block;
     margin: 10px;
-    background-color: #c9b4dd;
-    border-radius: 8px;
+    background-color: #599d66;
+    border-radius: 10px;
+    border: none;
     padding: 5px 20px 5px 20px;
 }
 
@@ -56,10 +57,10 @@ h3 {
     box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-input[type='radio'] {
-    background-color: aquamarine;
+#question2, #question3, #question4, #question5 {
+    display: none;
 }
 
-#question2, #question3, #question4, #question5 {
+.alert {
     display: none;
 }
