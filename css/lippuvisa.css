@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(178, 236, 203);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 25%;
+}

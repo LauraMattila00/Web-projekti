@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/lippuvisa.css">
+</head>
+<body>
+    <h2>Lippu-visa</h2>
+    <p>
+        Tässä tietovisassa tehtävänäsi on tunnistaa eri maiden lippuja. Valitse vaihtoehdoista, minkä maan lippu on kyseessä. <br>
+         Läpäistäksesi visan on kaikki viisi lippua tunnistettava.
+    </p>
+    <form>
+        <h3>Kysymys 1. Minkä maan lippu on kuvassa?</h3>
+        <br>
+        <img src="../images/sveitsin_lippu.png" alt="sveitsin_lippu">
+        <br>
+        <!-- <button id="itävalta1">Itävalta</button>
+        <br>
+        <button id="ranska1">Ranska</button>
+        <br>
+        <button id="kanada1">Kanada</button>
+        <br>
+        <button id="sveitsi1">Sveitsi</button> -->
+        <input type="radio" name="choice" id="itävalta1" value="1"/>Itävalta
+        <br>
+        <input type="radio" name="choice" id="ranska1" value="2"/>Ranska
+        <br>
+        <input type="radio" name="choice" id="kanada1" value="3"/>Kanada
+        <br>
+        <input type="radio" name="choice" id="sveitsi1" value="4"/>Sveitsi
+        <br>
+        <button type="button" class="btn btn-info" id="sveitsi">Lähetä vastaus</button>
+        <!-- <button id="sveitsi">Lähetä vastaus</button><br> -->
+        <p><span id="palaute1"></span><br>
+        <p>Pisteesi: <span id="pisteet1"></span><br>
+    </form>
+    <form>
+        <h3>Kysymys 2. Minkä maan lippu on kuvassa?</h3>
+        <br>
+        <img src="../images/ruotsin_lippu.webp" alt="ruotsin_lippu">
+        <br>
+        <!-- <button id="norja2">Norja</button>
+        <br>
+        <button id="ruotsi2">Ruotsi</button>
+        <br>
+        <button id="tanska2">Tanska</button>
+        <br>
+        <button id="islanti2">Islanti</button> -->
+        <input type="radio" name="choice" id="norja2" value="1"/>Norja
+        <br>
+        <input type="radio" name="choice" id="ruotsi2" value="2"/>Ruotsi
+        <br>
+        <input type="radio" name="choice" id="tanska2" value="3"/>Tanska
+        <br>
+        <input type="radio" name="choice" id="islanti2" value="4"/>Islanti
+        <br>
+        <button type="button" class="btn btn-info" id="ruotsi">Lähetä vastaus</button>
+        <!-- <button id="ruotsi">Lähetä vastaus</button><br> -->
+        <p><span id="palaute2"></span><br>
+        <p>Pisteesi: <span id="pisteet2"></span><br>
+    </form>
+    <form>
+        <h3>Kysymys 3. Minkä maan lippu on kuvassa?</h3>
+        <br>
+        <img src="../images/espanjan_lippu.webp" alt="espanjan_lippu">
+        <br>
+        <!-- <button id="espanja3">Espanja</button>
+        <br>
+        <button id="kiina3">Kiina</button>
+        <br>
+        <button id="portugali3">Portugali</button>
+        <br>
+        <button id="ranska3">Ranska</button> -->
+        <input type="radio" name="choice" id="espanja3" value="1"/>Espanja
+        <br>
+        <input type="radio" name="choice" id="kiina3" value="2"/>Kiina
+        <br>
+        <input type="radio" name="choice" id="portugali3" value="3"/>Portugali
+        <br>
+        <input type="radio" name="choice" id="ranska3" value="4"/>Ranska
+        <br>
+        <button type="button" class="btn btn-info" id="espanja">Lähetä vastaus</button>
+        <!-- <button id="espanja">Lähetä vastaus</button><br> -->
+        <p><span id="palaute3"></span><br>
+        <p>Pisteesi: <span id="pisteet3"></span><br>
+    </form>
+    <form>
+        <h3>Kysymys 4. Minkä maan lippu on kuvassa?</h3>
+        <br>
+        <img src="../images/usa_lippu.webp" alt="usan_lippu">
+        <br>
+        <!-- <button id="isobritannia4">Iso-Britannia</button>
+        <br>
+        <button id="usa4">Yhdysvallat</button>
+        <br>
+        <button id="australia4">Australia</button>
+        <br>
+        <button id="kanada4">Kanada</button> -->
+        <input type="radio" name="choice" id="isobritannia4" value="1"/>Iso-Britannia
+        <br>
+        <input type="radio" name="choice" id="usa4" value="2"/>Yhdysvallat
+        <br>
+        <input type="radio" name="choice" id="australia4" value="3"/>Australia
+        <br>
+        <input type="radio" name="choice" id="kanada4" value="4"/>Kanada
+        <br>
+        <button type="button" class="btn btn-info" id="usa">Lähetä vastaus</button>
+        <!-- <button id="usa">Lähetä vastaus</button><br> -->
+        <p><span id="palaute4"></span><br>
+        <p>Pisteesi: <span id="pisteet4"></span><br>
+    </form>
+    <form>
+        <h3>Kysymys 5. Minkä maan lippu on kuvassa?</h3>
+        <br>
+        <img src="../images/japanin_lippu.webp" alt="japanin_lippu">
+        <br>
+        <!-- <button id="kiina5">Kiina</button>
+        <br>
+        <button id="usa5">Yhdysvallat</button>
+        <br>
+        <button id="espanja5">Espanja</button>
+        <br>
+        <button id="japani5">Japani</button> -->
+        <input type="radio" name="choice" id="kiina5" value="1"/>Kiina
+        <br>
+        <input type="radio" name="choice" id="usa5" value="2"/>Yhdysvallat
+        <br>
+        <input type="radio" name="choice" id="espanja5" value="3"/>Espanja
+        <br>
+        <input type="radio" name="choice" id="japani5" value="4"/>Japani
+        <br>
+        <button type="button" class="btn btn-info" id="japani">Lähetä vastaus</button>
+        <!-- <button id="japani">Lähetä vastaus</button><br> -->
+        <p><span id="palaute5"></span><br>
+        <p>Pisteesi: <span id="pisteet5"></span><br>
+    </form>
+    <script src="../js/lippuvisa.js"></script>
+</body>
+</html>
