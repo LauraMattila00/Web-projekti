@@ -210,16 +210,28 @@
                                 <!--https://www.kantele.net/kantele-1626-nurmeksen-museo/2595-->
                                 <img src="/images/kantele.jpg" alt="kantele" class="img-fluid" id="kantele">
                                 <p>Olet vastannut <span id="questions5"></span> / 5 kysymykseen.</p>
-                                <button class="button" id="button6" onclick="points()"><span>Tarkista pisteesi!</span></button>
+                                <button class="button" id="button6" onclick="calcPoints()"><span>Tarkista pisteesi!</span></button>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md">
-                            <div class="points" id="excellent"></div>
-                            <div class="points" id="good"></div>
-                            <div class="points" id="average" ></div>
-                            <div class="points" id="poor"></div>
+                            <div class="points" id="excellent">
+                                <h3>Mahtavaa!</h3>
+                                <p>Sait täydet pisteet. Hienoa työtä!</p>
+                            </div>
+                            <div class="points" id="good">
+                                <h3>Hyvää työtä!</h3>
+                                <p>Tunnet jo monta Suomen kansallissymbolia.</p>
+                            </div>
+                            <div class="points" id="average" >
+                                <h3></h3>
+                                <p></p>
+                            </div>
+                            <div class="points" id="poor">
+                                <h3>Voi ei!<br>Pistesaldosi jäi nollaan.</h3>
+                                <p>Nyt taitaa olla homma hanskassa - mutta hanskat hukassa.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
