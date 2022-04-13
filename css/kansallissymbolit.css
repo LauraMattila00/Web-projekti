@@ -1,3 +1,4 @@
+/* Laura Mattila TIK22KM */
 
 .row {
     margin-bottom: 10px;
@@ -32,9 +33,34 @@ img {
     height: 40%;
 }
 
+/* Actions after answering  */
+
+.infos, .points {
+    padding: 25px;
+    display: none;
+}
+
+.points {
+    border: 3px #1a4d2e solid;
+}
+
+#question2, #question3, #question4, #question5 {
+    display: none;
+}
+
+/* Error */
+
+.alert {
+    display: none;
+}
+
+
+/* Buttons (radiobutton & button) */
+
 .choices {
     display: inline-block;
     background-color: #6fad94;
+    border: 1px solid rgb(19, 80, 28);
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
     margin: 5px;
@@ -48,27 +74,13 @@ img {
     box-shadow: none;
 }
 
-.infos, .points {
-    padding: 25px;
-    display: none;
-}
-
-#question2, #question3, #question4, #question5 {
-    display: none;
-}
-
-.alert {
-    display: none;
-}
-
-
 /* button code from https://www.w3docs.com/tools/code-editor/3985 */
 
 button {
     display: inline-block;
     background-color: #308952;
+    border: 1px solid #1a4d2e;
     border-radius: 10px;
-    border: none;
     color: #000000;
     text-align: center;
     font-size: 17px;
