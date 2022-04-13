@@ -41,7 +41,9 @@ img {
 }
 
 .points {
-    border: 3px #1a4d2e solid;
+    background-color: #308952;
+    border: 1px #1a4d2e solid;
+    border-radius: 10px;
 }
 
 #question2, #question3, #question4, #question5 {
@@ -97,6 +99,7 @@ button {
     position: relative;
     transition: 0.5s;
   }
+
   button span:after {
     content: '\00bb';
     position: absolute;
