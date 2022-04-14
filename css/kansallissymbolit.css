@@ -1,12 +1,15 @@
 /* Laura Mattila TIK22KM */
 
+body {
+    background-image: url();
+}
+
 .row {
     margin-bottom: 10px;
 }
 
-.col {
+.col-md {
     text-align: center;
-    padding: 50px;
 }
 
 h3 {
