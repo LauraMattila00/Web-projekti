@@ -1,66 +1,155 @@
-img {
-    height: 50%;
-    width: 50%;
-    margin-bottom: 30px;
-}
-
-.row {
-    margin-bottom: 10px;
-}
-
-.col {
+body {
+    background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
+    font-family: 'Happy Monkey', cursive;
+  }
+  
+  
+  
+  /*
+  .col-md {
     text-align: center;
-    padding: 50px;
-}
-
-h3 {
-    margin: 10px 0 30px 0;
-}
-
-
-.choices {
+    background-color: #E4FDE1;
+  } */
+  
+  .col-md-8 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(72, 93, 80);
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    padding-top: 20px;
+  }
+  
+  h3 {
+    margin: 20px 0 30px 0;
+  }
+  
+  h5 {
+    margin-bottom: 20px;
+  }
+  
+  .infos img {
+    width: 40%;
+    margin-bottom: 30px;
+    background: transparent;
+    padding: 8px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 10px 10px 10px rgb(72, 93, 80);
+  }
+  
+  #laulujoutsen {
+    max-width: 40%;
+  }
+  
+  #header {
+    text-align: center;
+  }
+  
+  #girl {
+    width: 25%;
     display: inline-block;
-    background-color: #6fad94;
-    border: none;
+  }
+  
+  /* Actions after answering  */
+  
+  .infos, .points {
+    padding: 25px;
+    display: none;
+  }
+  
+  #question2, #question3, #question4, #question5, #points {
+    display: none;
+  }
+  
+  /* Error */
+  
+  .alert {
+    display: none;
+  }
+  
+  
+  /* Buttons (radiobutton & button) */
+  
+  .choices {
+    display: inline-block;
+    background-color: #BFE8C7;
+    border: 1px solid rgb(72, 93, 80);
     border-radius: 10px;
     padding: 10px 30px 10px 30px;
     margin: 5px;
-}
-
-
-.choices:hover {
+  }
+  
+  .choices:hover {
     box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-
-}
-
-.choices:disabled {
-    transform: scale(1);
+    transform: scale(1.05);
+  }
+  
+  .choices:disabled {
     box-shadow: none;
-}
-
-.infos, .points {
-    padding: 20px;
-    display: none;
-}
-
-.button {
+  }
+  
+  /* button code from https://www.w3docs.com/tools/code-editor/3985 */
+  
+  button {
     display: inline-block;
-    margin: 10px;
-    background-color: #599d66;
+    background-color: #BFE8C7;
+    border: 1px solid rgb(72, 93, 80);
     border-radius: 10px;
-    border: none;
-    padding: 5px 20px 5px 20px;
-}
-
-.button:hover {
-    transform: scale(1.1);
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    background-color: #BFE8C7;
     box-shadow: 0px 12px 12px 0px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-#question2, #question3, #question4, #question5 {
-    display: none;
-}
-
-.alert {
-    display: none;
-}
+    transform: scale(1.05);
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  input[type='radio'] {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+  }
+  
