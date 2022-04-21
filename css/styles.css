@@ -1,3 +1,5 @@
+/*Meveena Ramadoss*/
+
 .kokoteksti{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
@@ -14,10 +16,6 @@ p{
     font-size: 20px;
 }
 
-ol{
-
-}
-
 input[type="checkbox"]{
     appearance: none;
     height: 40px;
@@ -28,8 +26,7 @@ input[type="checkbox"]{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    
+       
 }
 input[type="checkbox"]:after{
 
@@ -42,9 +39,6 @@ input[type="checkbox"]:after{
 input[type="checkbox"]:checked{
     background-color: #5bcd3e;
 }
-
-
-
 label{
     color: #4c4c4c;
     font-size: 20px;

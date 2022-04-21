@@ -1,3 +1,4 @@
+//Meveena Ramadoss
 let number1= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number2= (Math.floor(Math.random()*(10-10+1)+10)) ;
 document.getElementById("Yhteenlasku").innerHTML = "Yhteenlasku: "+number1 + "+" + number2;
