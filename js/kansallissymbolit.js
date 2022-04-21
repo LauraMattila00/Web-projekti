@@ -30,8 +30,8 @@ function question1 () {
     disableButton("choice1", "choice2", "choice3");
     document.getElementById("questions1").innerHTML = questions;
     document.getElementById("button1").style.display = "none";
-    document.getElementById("info1").style.display = "inline-block";
-    document.getElementById("question2").style.display = "inline-block";
+    document.getElementById("info1").style.display = "block";
+    document.getElementById("question2").style.display = "block";
 }
 
 // 2. question
@@ -53,8 +53,8 @@ function question2 () {
     disableButton("choice4", "choice5", "choice6");
     document.getElementById("questions2").innerHTML = questions;
     document.getElementById("button2").style.display = "none";
-    document.getElementById("info2").style.display = "inline-block";
-    document.getElementById("question3").style.display = "inline-block";
+    document.getElementById("info2").style.display = "block";
+    document.getElementById("question3").style.display = "block";
 }
 
 // 3. question
@@ -76,8 +76,8 @@ function question3 () {
     disableButton("choice7", "choice8", "choice9");
     document.getElementById("questions3").innerHTML = questions;
     document.getElementById("button3").style.display = "none";
-    document.getElementById("info3").style.display = "inline-block";
-    document.getElementById("question4").style.display = "inline-block";
+    document.getElementById("info3").style.display = "block";
+    document.getElementById("question4").style.display = "block";
 }
 
 // 4. question
@@ -99,8 +99,8 @@ function question4 () {
     disableButton("choice10", "choice11", "choice12");
     document.getElementById("questions4").innerHTML = questions;
     document.getElementById("button4").style.display = "none";
-    document.getElementById("info4").style.display = "inline-block";
-    document.getElementById("question5").style.display = "inline-block";
+    document.getElementById("info4").style.display = "block";
+    document.getElementById("question5").style.display = "block";
 }
 
 // 5. question
@@ -122,18 +122,22 @@ function question5 () {
     disableButton("choice13", "choice14", "choice15");
     document.getElementById("questions5").innerHTML = questions;
     document.getElementById("button5").style.display = "none";
-    document.getElementById("info5").style.display = "inline-block";
+    document.getElementById("info5").style.display = "block";
 }
 
 
 function calcPoints () {
+    document.getElementById("points").style.display = "block";
+
     if (points == 0) {
-        return document.getElementById("poor").style.display = "inline-block";
+        return document.getElementById("poor").style.display = "block";
     } else if (points < 3) {
-        return document.getElementById("average").style.display = "inline-block";
+        document.getElementById("points1-2").innerHTML = points;
+        return document.getElementById("average").style.display = "block";
     } else if (points < 5) {
-        return document.getElementById("good").style.display = "inline-block";
+        document.getElementById("points3-4").innerHTML = points;
+        return document.getElementById("good").style.display = "block";
     } else {
-        return document.getElementById("excellent").style.display = "inline-block";
+        return document.getElementById("excellent").style.display = "block";
     }
 }
