@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: linear-gradient(to right,transparent 50%, white 30%, white 90%,transparent 0)
+    ,url(chess.webp);*/
+    
+    min-height:500vh; 
+    background-image: url(chess.webp);
+    background-repeat: no-repeat;
+    paddi
+}
+html , body {
+    height: 100%;
+  }
+  #content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px tepea (4,1fr);
+    grid-template-rows: auto;
+    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
+  }
+h1{
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 0mm;
+    color: black;
+    text-size-adjust: 30;
+    line-height: 3;
+    margin-top:8;
+  
+}
+header {
+    display: flex;
+    background-color: transparent;
+    grid-column: 1/6;
+    border: black;
+    border: 2px solid;
+    background-color: #5286AB;
+    border-width: 10 em;
+    border-radius: 19px;
+}
+h2{
+    background-color: #77D5FF;
+    margin-top: 8;
+    padding-left: 8px;
+    line-height: 3;
+    border-radius: 19px;
+    border-color: black;
+    border-width: 10 em;
+}
+button{
+    background-color: green;
+    border: black;
+    color: white;
+    padding: 30px 52px;
+    font-size: 24px;
+    border-radius: 19px;
+}
+
+p {
+    background-color: #B1FFCF;
+    margin-top: 8;
+    padding-left: 8px;
+    line-height: 3;
+    border-radius: 19px;
+    border-color: black;
+    border-width: 10 em;
+}
+
+
+  /*
+    background: red;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  z-index: 2;
+  position: relative;
+}
+
+.image {
+  background-image: url('https://placekitten.com/200/200?image=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1500px;
+  position: absolute;
+  z-index: -1;
+}
+
+.content {
+  background: #fff;
+  height: 500px;
+  width: 800px;
+}
+Share
+Improve this answer
+Follow
+*/
+  
