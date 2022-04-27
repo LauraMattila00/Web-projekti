@@ -9,7 +9,14 @@ body {
     background-repeat: no-repeat;
     border-image-width: 50%;
     image-resolution: 13;
+    background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
+    font-family: 'Happy Monkey', cursive;
+}
     
+footer {
+  border-top: 1px solid rgb(138, 135, 135);
+  padding: 1rem;
 }
 html , body {
     height: 100%;
