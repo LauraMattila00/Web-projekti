@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../matikkatesti.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/matikkatesti.css">
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
 
     <h1> Matikkatesti: Kertolaskut</h1>
 
-    <div id="laskut">
+    <div class="laskut">
         <h3> <span id="lasku1"></span> = <input id="vastaus"> <span id="tulos"></span></h3>
         <h3> <span id="lasku2"></span> = <input id="vastaus1"> <span id="tulos1"></span></h3>
         <h3> <span id="lasku3"></span> = <input id="vastaus2"> <span id="tulos2"></span></h3>
@@ -23,9 +26,10 @@
     </div>
     <button type="button" onclick="tulokset()" id="button" > Tulokset</button>
     <h3 id="tulokset"></h3>
-
+    
     <footer>
+        <span> &copy; Laura Mattila, Saija Ristolainen, Veeti Vihertö, Tuomas Tani, Jani Tomminen, Samuli Rahkola, Meveena Ramadoss</span>
     </footer>
-    <script src="../matikkatesti.js"></script>
+    <script src="../js/matikkatesti.js"></script>
 </body>
 </html> 
