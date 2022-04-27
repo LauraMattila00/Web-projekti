@@ -1,6 +1,11 @@
 // Laura Mattila TIK22KM
 
-// A function that disables button
+let points = 0;
+let questions = 0;
+
+
+
+
 
 function disableButton( firstbutton, secondbutton, thirdbutton ) {
     document.getElementById(firstbutton).disabled = true;
@@ -8,8 +13,7 @@ function disableButton( firstbutton, secondbutton, thirdbutton ) {
     document.getElementById(thirdbutton).disabled = true;
 }
 
-let points = 0;
-let questions = 0;
+
 
 // 1. question
 
