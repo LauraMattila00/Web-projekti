@@ -96,7 +96,7 @@ function resultnum5(){
     }
 
 }
-function anikapraveen() { 
+function addall() { 
     resultnum1()
     resultnum2()
     resultnum3()
