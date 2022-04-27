@@ -5,9 +5,18 @@ body {
     ,url(chess.webp);*/
     
     min-height:500vh; 
-    background-image: url(chess.webp);
+    background-image: url(/images/chess.webp);
     background-repeat: no-repeat;
-    paddi
+    border-image-width: 50%;
+    image-resolution: 13;
+    background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
+    font-family: 'Happy Monkey', cursive;
+}
+    
+footer {
+  border-top: 1px solid rgb(138, 135, 135);
+  padding: 1rem;
 }
 html , body {
     height: 100%;
@@ -68,33 +77,5 @@ p {
 }
 
 
-  /*
-    background: red;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  z-index: 2;
-  position: relative;
-}
 
-.image {
-  background-image: url('https://placekitten.com/200/200?image=1');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
-  width: 1500px;
-  position: absolute;
-  z-index: -1;
-}
-
-.content {
-  background: #fff;
-  height: 500px;
-  width: 800px;
-}
-Share
-Improve this answer
-Follow
-*/
   
