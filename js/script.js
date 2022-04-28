@@ -85,12 +85,26 @@ function resultnum5(){
     /*let answer5= Number(number9 < number10)*/
   
 
-    if ((number9 > number10) ==jus5){
+    if (number9 > number10){
+       if(number9==jus5) {
+
         document.getElementById("result5").innerHTML = ("Oikein");
         count++;
-    }
-    else{
+       }
+       else{
         document.getElementById("wrong5").innerHTML = ("Väärin!"+" "+"Oikea vastaus on"+" "+number9);
+
+       }
+    }
+    else if (number9 < number10){
+        if(number10==jus5) {
+
+            document.getElementById("result5").innerHTML = ("Oikein");
+            count++;} 
+        else{
+            document.getElementById("wrong5").innerHTML = ("Väärin!"+" "+"Oikea vastaus on"+" "+number10);
+        }    
+       
       
     }
 
