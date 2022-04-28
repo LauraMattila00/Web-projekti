@@ -1,23 +1,9 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /*background: linear-gradient(to right,transparent 50%, white 30%, white 90%,transparent 0)
-    ,url(chess.webp);*/
-    
-    min-height:500vh; 
-    background-image: url(/images/chess.webp);
-    background-repeat: no-repeat;
-    border-image-width: 50%;
-    image-resolution: 13;
+   
     background: rgb(255,239,186);
-    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
     font-family: 'Happy Monkey', cursive;
 }
     
-footer {
-  border-top: 1px solid rgb(138, 135, 135);
-  padding: 1rem;
-}
 html , body {
     height: 100%;
   }
@@ -28,32 +14,42 @@ html , body {
     grid-template-rows: auto;
     font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
   }
+*{
+    text-align: center;
+}
 h1{
     text-align: center;
-    text-decoration: double;
-    text-shadow: 0mm;
     color: black;
     text-size-adjust: 30;
     line-height: 3;
     margin-top:8;
+    
   
 }
+footer {
+    border-top: 1px solid rgb(138, 135, 135);
+    padding: 1rem;
+  }
 header {
-    display: flex;
-    background-color: transparent;
+   
+    background-color: rgb(255,239,186);
     grid-column: 1/6;
     border: black;
     border: 2px solid;
-    background-color: #5286AB;
     border-width: 10 em;
     border-radius: 19px;
+    
 }
 h2{
-    background-color: #77D5FF;
-    margin-top: 8;
-    padding-left: 8px;
-    line-height: 3;
-    border-radius: 19px;
+    background-color: #f2f7f9;
+    margin-top: 4;
+    padding-left: 4px;
+    line-height: 2;
+    border-radius: 10px;  
+    font-family: 'Happy Monkey', cursive;
+    text-emphasis-color: black;
+}
+*{
     border-color: black;
     border-width: 10 em;
 }
@@ -75,7 +71,31 @@ p {
     border-color: black;
     border-width: 10 em;
 }
+input {
+    border-color: black;
+    border-width: 10 em;
 
+}
+#wrong1,#wrong2,#wrong3,#wrong4,#wrong5{
 
+    background-color: #c81b00;
+    margin-top: 8;
+    padding-left: 8px;
+    line-height: 3;
+    border-radius: 19px;
+    border-color: black;
+    border-width: 10 em;
+}
+/* margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to right,transparent 50%, white 30%, white 90%,transparent 0)
+    ,url(chess.webp);
+    
+    min-height:500vh; 
+    background-image: url(/images/chess.webp);
+    background-repeat: no-repeat;
+    border-image-width: 50%;
+    image-resolution: 13;
+*/
 
   
