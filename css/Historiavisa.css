@@ -7,17 +7,20 @@ body{
     align-items: center;
     font-family: 'Happy Monkey', cursive;
     margin: 15px;
-    padding-top: 10px;
-     
+      
 }
 
+nav{
+    position: relative; right: 750px;
+    }
 .kysymys{
-    background-color: #d5d5d5;
+margin: 10px;
 
 }
 
 header{
 font-size: 50px;
+padding-top: 30px;
 }
 
 h1{
