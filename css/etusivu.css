@@ -1,11 +1,11 @@
+* {
+    text-align: center;
+}
+
 body {
     background: rgb(255,239,186);
     background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
     font-family: 'Happy Monkey', cursive;
-}
-
-header {
-    text-align: center;
 }
 
 header img {
