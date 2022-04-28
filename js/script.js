@@ -78,7 +78,7 @@ function resultnum4(){
 
 let number9= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number10= (Math.floor(Math.random()*(10-10+1)+10)) ;
-document.getElementById("Vertaa ja Merkitse <tai>").innerHTML = "Vertaa ja kirjoittaa kumppi on isoin: "+"<" +"tai"+">"+" "+number3 +" "+"tai"+" "+number4;
+document.getElementById("Vertaa ja Merkitse <tai>").innerHTML = "Vertaa ja kirjoittaa kumppi on isoin: "+"<" +"tai"+">"+" "+number9 +" "+"tai"+" "+number10;
 
 function resultnum5(){
     let jus5= (document.getElementById("answer5").value);
