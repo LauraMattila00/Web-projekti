@@ -4,15 +4,12 @@ let points = 0;
 let questions = 0;
 
 
-
-
-
 function disableButton( firstbutton, secondbutton, thirdbutton ) {
     document.getElementById(firstbutton).disabled = true;
     document.getElementById(secondbutton).disabled = true;
     document.getElementById(thirdbutton).disabled = true;
-}
 
+}
 
 
 // 1. question
@@ -128,6 +125,8 @@ function question5 () {
     document.getElementById("button5").style.display = "none";
     document.getElementById("info5").style.display = "block";
 }
+
+// Results:
 
 
 function calcPoints () {
