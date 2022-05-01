@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historiavisa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Historiavisa.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Etusivu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tehtävät ja tietovisat</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../pages/matikkatesti.html">Matikkapaketti</a></li>
+                            <li><a class="dropdown-item" href="../pages/lippuvisa.html">Lippuvisa</a></li>
+                            <li><a class="dropdown-item" href="../pages/Historiavisa.html">Historiavisa</a></li>
+                            <li><a class="dropdown-item" href="../pages/kansallissymbolit.html">Kansallissymbolivisa</a></li>
+                            <li><a class="dropdown-item" href="../pages/Maantietovisa.html">Maantietovisa</a></li>
+                            <li><a class="dropdown-item" href="../pages/matikkaWep.html">Matikkatehtävät</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tietoja</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>Alakoulutason tietovisa historiasta</header>
+  
+<!--Ensimmäinen kysymys, jossa radiobuttoneita.-->
+  <div id="kysymys1" class="kysymys">
+    <p >Mikä valtakunta hallitsi eurooppaa vuosina
+        753 eaa. -1475 jaa.
+    </p>
+    <input class="radio" type="radio" name="Historia1" value="1" id="HistoriaEnsimmäinen">
+  <span>Mongolia</span>  
+</input>
+<input class="radio" type="radio" name="Historia1" value="2" id="HistoriaToinen">
+Ruotsi
+</input>
+<input class="radio" type="radio" name="Historia1" value="3" id="HistoriaKolmas">
+Antiikin Kreikka
+</input>
+<input class="radio" type="radio" name="Historia1" value="4" id="HistoriaNeljäs">
+Antiikin rooma
+</input>
+<button onclick="myFunction()" id="button1">Vastaa</button>
+<p id="vastaus1"></p>
+</div>
+<br>
+<div id="kysymys2" class="kysymys">
+<img src="https://antiikinhistoriajakulttuuri.files.wordpress.com
+/2015/08/aristoteles.jpg" width="300" height="300" alt="Aristoteles">
+<p>Kuka Antiikin Kreikan filosofi on yläpuolella olevassa kuvassa</p></img>
+
+<label for="Aristoteles">Valitse</label>
+<select name="Aristoteles" id="Aristoteles">
+    <option id="option1" value="1">Aristoteles</option>
+    <option value="2">Pythagora</option>
+    <option value="3">Demokritos</option>
+    <option value="4">Bias</option>
+</select>
+<button onclick="myFunction2()" id="button2">Vastaa</button>
+<p id="vastaus2"></p>
+</div>
+
+<div id="kysymys3" class="kysymys">
+<p>Mihin hierarkkiseen järjestykseen keski-ajan asukkaat sijoittautusivat.<br>Ensimmäisellä eniten oikeuksia. 4:llä vähiten.</p>
+<ol type="1">
+<li><label for="Porvari1"></label>
+    <select name="Porvari1" id="Porvari1">
+        <option value="1">Aatelinen</option>
+        <option value="2">Talonpoika</option>
+        <option value="3">Porvari</option>
+        <option value="4">Pappi</option>
+    </select></li>
+
+<li><label for="Porvari2"></label>
+    <select name="Porvari2" id="Porvari2">
+        <option value="1">Aatelinen</option>
+        <option value="2">Talonpoika</option>
+        <option value="3">Porvari</option>
+        <option value="4">Pappi</option>
+    </select></li>
+
+<li><label for="Porvari3"></label>
+    <select name="Porvari3" id="Porvari3">
+        <option value="1">Aatelinen</option>
+        <option value="2">Talonpoika</option>
+        <option value="3">Porvari</option>
+        <option value="4">Pappi</option>
+    </select></li>
+
+<li><label for="Porvari4"></label>
+    <select name="Porvari4" id="Porvari4">
+        <option value="1">Aatelinen</option>
+        <option value="2">Talonpoika</option>
+        <option value="3">Porvari</option>
+        <option value="4">Pappi</option>
+    </select></li>
+</ol>
+<button onclick="myFunction3()" id="button3">Vastaa</button>
+<p id="vastaus3"></p>
+</div>
+
+<div id="kysymys4" class="kysymys">
+    <p>Kuka henkilö tunnetaan niin sanottuna Suomen kielen isänä.</p>
+<ol type="a" class="alias2" >
+<li class="alias1" value="1">Jonathan Johansson</li>
+<li class="alias1" value="2">Aleksis Kivi</li>
+<li class="alias1" value="3" name="Mikael Agricola" id="oikea">Mikael Agricola</li>
+<li class="alias1" value="4">Martin Luther</li>
+</ol>
+<label for="name"></label>
+<input type="Mikael Agricola" id="input1">
+<button onclick="myFunction4()" id="button4">Vastaa</button>
+<p id="vastaus4"></p>
+</div>
+
+<div id="kysymys5" class="kysymys">
+<p>Löydettiinkö Amerikka vuonna 1492.</p>
+<input class="totta" type="radio" name="totta" value="1" id="q1">Kyllä</input>
+<input class="totta" type="radio" name="totta" value="2" id="q2">Ei</input>
+<button onclick="myFunction5()" id="button5">Vastaa</button>
+<p id="vastaus5"></p>
+</div>
+
+<div>
+    <p>Paina napista, kun olet vastannut kaikkiin kysymyksiin</p>
+<button onclick="myFunction6()" id="Button6">Valmis</button>
+<p id="vastaus6" class="kysymys"></p>
+</div>
+
+</div>
+<script src="../js/Historiavisa.js"></script>
+</body>
+</html>
