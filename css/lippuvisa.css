@@ -10,6 +10,17 @@ nav {
     font-family: 'Happy Monkey', cursive;
     }
 
+    header {
+        text-align: center;
+    }
+    
+    header img {
+        width: 60%;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgb(72, 93, 80);
+        margin-bottom: 20px;
+    }
+
 h2 {
     text-align: center;
 }
@@ -31,3 +42,15 @@ img {
 button {
     margin-top: 5px;
 }
+
+footer {
+    border-top: 1px solid rgb(138, 135, 135);
+    padding: 1rem;
+  }
+  
+  footer span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: black
+  }
