@@ -2,15 +2,17 @@
 
 form {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 h1 {
     padding: 5px;
-    
+    text-align: center;
 }
 
 p {
     font-family: 'Happy Monkey', cursive;
+    text-align: center;
 }
 
 h1 {
@@ -19,6 +21,7 @@ h1 {
 
 h3 {
     font-family: 'Happy Monkey', cursive;
+    text-align: center;
 }
 
 body {
@@ -42,4 +45,11 @@ footer {
     width: 100%;
     display: block;
     color: black
+  }
+
+  img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
