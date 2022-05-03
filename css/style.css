@@ -1,6 +1,6 @@
 body {
-   
     background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
     font-family: 'Happy Monkey', cursive;
 }
     
@@ -85,6 +85,13 @@ input {
     border-radius: 19px;
     border-color: black;
     border-width: 10 em;
+}
+#good{
+    display:none;
+    width: 10px;
+    height:10 px;
+   align-items: center;
+    
 }
 /* margin: 0;
     font-family: Arial, Helvetica, sans-serif;
