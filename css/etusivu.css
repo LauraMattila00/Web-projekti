@@ -30,3 +30,22 @@ footer {
     display: block;
     color: black
   }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: left;
+
+  }
+  
+  ul,ol,p,li {
+    font-size: 5 rem;
+    line-height: 1.5 rem;
+    padding-left: 2.5 rem;
+    margin: 16px;
+    text-align: left;
+    color: black;
+    text-size-adjust: 30;
+  }
+  
+  
+  

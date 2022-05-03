@@ -1,4 +1,5 @@
 
+//Yhteenlasku
 let number1= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number2= (Math.floor(Math.random()*(20-05+1)+05)) ;
 document.getElementById("Yhteenlasku").innerHTML = "Yhteenlasku: "+number1 + "+" + number2;
@@ -18,7 +19,7 @@ function resultnum1(){
     }
 }
 
-
+//Vähennylasku
 let number3= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number4= (Math.floor(Math.random()*(20-10+1)+10)) ;
 document.getElementById("Vähennyslasku").innerHTML = "Vähennyslasku: "+number3 + "-" + number4;
@@ -38,6 +39,7 @@ function resultnum2(){
     }
 }
 
+//Kertolasku
 let number5= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number6= (Math.floor(Math.random()*(10-5+1)+2)) ;
 document.getElementById("Kertolasku").innerHTML = "Kertolasku: "+number5 + "*" + number6;
@@ -57,6 +59,7 @@ function resultnum3(){
     }
 }
 
+//Jakolasku
 let number7= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number8= (Math.floor(Math.random()*(10-10+1)+10)) ;
 document.getElementById("Jakolasku").innerHTML = "Jakolasku: "+number7 + "/" + number8;
@@ -76,6 +79,7 @@ function resultnum4(){
     }
 }
 
+//Vertaa lasku
 let number9= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number10= (Math.floor(Math.random()*(10-10+1)+10)) ;
 document.getElementById("Vertaa ja Merkitse <tai>").innerHTML = "Vertaa ja kirjoittaa kumppi on isoin: "+"<" +"tai"+">"+" "+number9 +" "+"tai"+" "+number10;
@@ -120,43 +124,4 @@ function addall() {
 
 
 
-   /* function getRndInteger(min,max){
-        return Math.floor(Math.random()) *(min-max+1) + min;
-    }
-/** 
-    function resultnum() {
-        document.getElementById("result1").innerHTML = "Paragraph changed.";
-      }
-   
-   
-    
-    /**If(10>c) Document.getElemenybyid("Anika").innerhtml="input value is greater");
-    Else
-    Document.getElemenybyid("Anika").innerhtml="input value is correct");
-
-
-/**function DecimalGenerate() {
-    var min = 1.03,
-        max = 5.99,
-        NumberResult = Math.random() * (max - min) + min;
-
-    $('#text1').val(parseFloat(NumberResult).toFixed( 2 ));
-};
-
-$( document ).ready(function() {
-DecimalGenerate();
-});
-
-function result9() {
-let number1=(Math.floor(Math.random)*100)+1;
-let number2=(Math.floor(Math.random)*100)+1;
-document.getElementById("number1")=number1;
-document.getElementById("number1")=number2;
-
-
-**/
-
-      /*  firstNumbers[i] = (int)(Math.random() * 50 + 1);  // in the range 1 to 50
-        secondNumbers[i] = (int)(Math.random() * 50); // in the range 0 to 49
-    */
-
+ 
