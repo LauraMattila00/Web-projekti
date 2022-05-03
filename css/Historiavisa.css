@@ -6,7 +6,8 @@ body{
     flex-flow: column wrap; 
     align-items: center;
     font-family: 'Happy Monkey', cursive;
-    margin: 15px;     
+    margin: 15px;  
+     
 }
 
 p{
