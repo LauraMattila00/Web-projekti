@@ -35,12 +35,18 @@ h1{
 h2{
     background-color: #f2f7f9;
     margin-top: 5;
-    border-radius: 20em; 
-    border-color: black; 
+    border-radius: 5%; 
     font-family: 'Happy Monkey', cursive;
     text-emphasis-color: black;
-    padding: 0.2em;
+    padding:0.4%;
+    margin: 25%;
+    grid-column: 1/6;
+    border: black;
+    border: 2px solid;
+    border-width: 10 em;
+    border-radius: 19px;
 }
+
 *{
     border-color: black;
     border-width: 10 em;
@@ -50,18 +56,18 @@ button{
     border: black;
     color: white;
     padding: 30px 52px;
-    font-size: 24px;
+    font-size: 30px;
     border-radius: 19px;
 }
 
-p {
+p { 
     background-color: #B1FFCF;
-    margin-top: 8;
-    padding-left: 8px;
-    line-height: 3;
-    border-radius: 19px;
+    margin:5%;
+    font-size: 62%;
+    border-radius: 35em; 
     border-color: black;
-    border-width: 10 em;
+    border-width: 10em;
+    /*padding-left: 30px 52px;*/
 }
 input {
     border-color: black;
@@ -70,34 +76,39 @@ input {
     font-size: 24px;
 }
 #wrong1,#wrong2,#wrong3,#wrong4,#wrong5{
+    background-color: rgb(254, 116, 116);
+    font-size: 62%;
+    margin: 5%;
+   border-color: black;
+   border-radius: 35em;
+   border-width: 10em;
 
-    background-color: #c81b00;
-    margin-top: 8;
-    padding-left: 8px;
-    line-height: 3;
-    border-radius: 19px;
-    border-color: black;
-    border-width: 10 em;
 }
 #good, #keepitup{
     display:none;
     width: 10px;
     height:10 px;
    align-items: center;
+   grid-column: 1/6;
+   border: black;
+   border: 2px solid;
+   border-radius: 19px;
     
 }
 #count,#marks{
-    background-color: #b04fa3;
-    margin-top: 8;
-    padding-left: 8px;
-    line-height: 3;
-    border-radius: 19px;
-    border-color: black;
-    border-width: 8 em;
-    background-color: #b04fa3;
-    margin-top: 8;
-
+    font-family: 'Happy Monkey', cursive;
+    background-color: rgb(215, 110, 208);
+    font-size: 120%;
+    margin: 8%;
+   border-color: black;
+   border-radius: 20%;
+   align-items: center;
+ 
 }
+
+
+
+
 
 /* FOOTER*/
 footer {
