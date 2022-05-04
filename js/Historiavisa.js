@@ -1,7 +1,5 @@
 let pisteet=0
 
-
-
 //Ensimmäinen funktio
 function myFunction (){
 
@@ -67,7 +65,7 @@ function myFunction (){
     let option1=document.getElementById("q1")
     if (option1.checked==true){
       pisteet++;
-      document.getElementById("vastaus5").innerHTML="oikein, sait pisteen"
+      document.getElementById("vastaus5").innerHTML="oikein. Historia kertoo, että tutkimusmatkailija Kristoffer Kolumbus virallisesti löysi Amerikan vuonna 1492"
     }
     else{
       document.getElementById("vastaus5").innerHTML="väärin. Amerikka löydettiin kyseisenä vuonna"
