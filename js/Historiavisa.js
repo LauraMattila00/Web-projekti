@@ -25,7 +25,7 @@ function myFunction (){
   if (option1==1){
     pisteet++;
     vastaukset++;
-    document.getElementById("vastaus2").innerHTML+="oikein. Aristoteleksen filosofiset pohdinnat ovat vaikuttaneet todella paljon länsimaalaiseen ajattelukulttuuriin"
+    document.getElementById("vastaus2").innerHTML+="oikein. Aristoteleksen filosofisten pohdintojen uskotaan vaikuttaneen todella paljon länsimaalaiseen ajattelukulttuuriin"
   }else{
     vastaukset++;
     document.getElementById("vastaus2").innerHTML="väärin. Oikea vastaus on Aristoteles. "
@@ -81,6 +81,7 @@ function myFunction (){
       document.getElementById("vastaus5").innerHTML="väärin. Amerikka löydettiin kyseisenä vuonna"
     }
     document.getElementById("button5").style.display="none";
+    
   }
 
   //kuudes funktio
@@ -89,9 +90,9 @@ function myFunction (){
     if (pisteet==0&&vastaukset==5){
       document.getElementById("vastaus6").innerHTML="sait 0 pistettä viidestä. Tämä on huono tulos."
     }else if(pisteet==1&&vastaukset==5){ 
-    document.getElementById("vastaus6").innerHTML="Sait vain 1 pisteen viidestä"
+    document.getElementById("vastaus6").innerHTML="Sait vain 1 pisteen viidestä :("
   }else if(pisteet==2&&vastaukset==5){
-    document.getElementById("vastaus6").innerHTML="Sait vain 2 pistettä viidestä"
+    document.getElementById("vastaus6").innerHTML="Sait vain 2 pistettä viidestä :("
   }else if(pisteet==3&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Sait 3 pistettä viidestä"
   }else if(pisteet==4&&vastaukset==5){

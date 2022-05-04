@@ -70,8 +70,8 @@ header img{
 h1{
 font-size: 40px;
 
-
 }
+
 p{
 font-size: 20px;
 }
@@ -79,6 +79,7 @@ font-size: 20px;
 ol{
 list-style-type:decimal;
 }
+
 .alias1{
 margin-bottom: 5px;
 }
@@ -141,9 +142,6 @@ width: 10em;
 border-radius: .25em;
 margin-bottom: 10px;
 }
-.select::after{
-content: "\25BC";
-}
 
 button{
 padding: 7.5px;
@@ -188,4 +186,5 @@ footer{
 nav{
     position:relative; right: 50px;
 }
+
 }
