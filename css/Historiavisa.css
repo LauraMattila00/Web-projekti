@@ -9,6 +9,7 @@ body{
     align-items: center;
     font-family: 'Happy Monkey', cursive;
     margin: 15px;  
+    border-radius: 8px;
    
 }
 
@@ -60,6 +61,7 @@ header img{
     border: 2px solid aliceblue;
     border-radius: 4px;
     padding: 5px;
+    
 }
 .aristoteles:hover {
     box-shadow: 0 0 2px 1px #d6ac5c;
