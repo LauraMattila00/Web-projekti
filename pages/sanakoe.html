@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jani Tomminen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Sanakoe</title>
+    <!--Awesome fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Oma css-->
+    <link rel="stylesheet" href="/css/sanakoe.css">
+</head>
+<body>
+    <!--Navbarin alku-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- "bg-light" removed -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Etusivu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tehtävät ja tietovisat</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/matikkatesti.html">Matikkapaketti</a></li>
+                                <li><a class="dropdown-item" href="../pages/lippuvisa.html">Lippuvisa</a></li>
+                                <li><a class="dropdown-item" href="../pages/index.html">Historiavisa</a></li>
+                                <li><a class="dropdown-item" href="../pages/kansallissymbolit.html">Kansallissymbolivisa</a></li>
+                                <li><a class="dropdown-item" href="../pages/Maantietovisa.html">Maantietovisa</a></li>
+                                <li><a class="dropdown-item" href="../pages/matikkaWep.html">Matikkatehtävät</a></li>
+                                <li><a class="dropdown-item" href="../pages/sanakoe.html">Sanakoe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Tietoja</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Navbarin loppu-->
+        <header>
+            <img src="/images/otsikko.jpg" alt="otsikko">
+        </header>
+
+<h1>Englannin sanakoe</h1>
+    <!--Tehtävät alkaa-->
+    <div class="tehtävä">
+        <h2>Kysymys 1.</h2>
+        <p>Computer</p>
+        <div class="radio">
+        <input type="radio" name="1" id="valinta1">Tietokone</input></br>
+        <input type="radio" name="1" id="valinta2">Komponentti</input></br>
+        <input type="radio" name="1" id="valinta3">Kahvinkeitin</input></br>
+        <input type="button" id="button1" onclick="k1()" value="Vastaa"/>
+        </div>
+    </br>
+        <p id="vastaus1"></p>
+        <p id="selitys1"></p>
+    </div>
+
+    <div class="tehtävä">
+        <h2>Kysymys 2.</h2>
+        <P>Keyboard</P>
+        <div class="radio">
+        <input type="radio" name="1" id="valinta4">Näyttö</input></br>
+        <input type="radio" name="1" id="valinta5">Näppäimistö</input></br>
+        <input type="radio" name="1" id="valinta6">Piano</input></br>
+        <input type="button" id="button2" onclick="k2()" value="Vastaa"/>
+        </div>
+    </br>
+    <p id="vastaus2"></p>
+    <p id="selitys2"></p>
+    </div>
+
+    <div class="tehtävä">
+        <h2>Kysymys 3.</h2>
+        <p>Motherboard</p>
+        <div class="radio">
+        <input type="radio" name="1" id="valinta7">Emolevy</input></br>
+        <input type="radio" name="1" id="valinta8">Emoalus</input></br>
+        <input type="radio" name="1" id="valinta9">Äitien taulu</input></br>
+        <input type="button" id="button3" onclick="k3()" value="Vastaa"/>
+        </div>
+    </br>
+    
+    <p id="vastaus3"></p>
+    <p id="selitys3"></p>
+    </div>
+
+    <div class="tehtävä">
+        <h2>Kysymys 4.</h2>
+        <p>Tietokone hiiri</p>
+        <div class="radio">
+        <input type="radio" name="1" id="valinta10">Computer rodent</input></br>
+        <input type="radio" name="1" id="valinta11">Rat</input></br>
+        <input type="radio" name="1" id="valinta12">Computer mouse </input></br>
+        <input type="button" id=button4 onclick="k4()" value="Vastaa"/>
+        </div>
+    </br>
+    <p id="vastaus4"></p>
+    <p id="selitys4"></p>
+    </div>
+
+    <div class="tehtävä">
+        <h2>Kysymys 5.</h2>
+       <P>Näyttö</P>
+       <div class="radio">
+       <input type="radio" name="1" id="valinta13">Square</input></br>
+       <input type="radio" name="1" id="valinta14">Picture square</input></br>
+       <input type="radio" name="1" id="valinta15">Monitor</input></br>
+        <input type="button" id="button5" onclick="k5()" value="Vastaa"/>
+       </div>
+    </br>
+    <p id="vastaus5"></p>
+    <p id="selitys5"></p>
+    </div>
+
+    
+
+  
+
+    <div class="tehtävä">
+        <h2>Pisteet</h2>
+        <p id="pisteet"> </p>
+    </br>
+        <input type="button" onclick="pisteet()" value="Lähetä"/>
+    </br>
+    
+    </div>
+    <!--Tehtävät loppuu-->
+    <footer>
+        <span> &copy; Laura Mattila, Saija Ristolainen, Veeti Vihertö, Tuomas Tani, Jani Tomminen, Samuli Rahkola, Meveena Ramadoss</span>
+    </footer>
+    
+<!--Awesome fonts script-->
+    <script src="https://kit.fontawesome.com/04978104cc.js" crossorigin="anonymous"></script>
+    <!--Oma JS-->
+    <script src="/js/sanakoe.js"></script>
+    <!--Bootsrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
