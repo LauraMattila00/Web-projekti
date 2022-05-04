@@ -1,6 +1,7 @@
+
 body {
-   
     background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
     font-family: 'Happy Monkey', cursive;
 }
     
@@ -73,8 +74,9 @@ p {
 }
 input {
     border-color: black;
-    border-width: 10 em;
-
+    border-width: 8 em;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 24px;
 }
 #wrong1,#wrong2,#wrong3,#wrong4,#wrong5{
 
@@ -85,6 +87,26 @@ input {
     border-radius: 19px;
     border-color: black;
     border-width: 10 em;
+}
+#good, #keepitup{
+    display:none;
+    width: 10px;
+    height:10 px;
+   align-items: center;
+    
+}
+#count,#marks{
+    background-color: #b04fa3;
+    margin-top: 8;
+    padding-left: 8px;
+    line-height: 3;
+    border-radius: 19px;
+    border-color: black;
+    border-width: 8 em;
+    background-color: #b04fa3;
+    margin-top: 8;
+    
+
 }
 /* margin: 0;
     font-family: Arial, Helvetica, sans-serif;
