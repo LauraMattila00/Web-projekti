@@ -1,4 +1,4 @@
-
+//mevee
 //Yhteenlasku
 let number1= (Math.floor(Math.random()*(50-10+1)+10)) ;
 let number2= (Math.floor(Math.random()*(20-05+1)+05)) ;
@@ -40,7 +40,7 @@ function resultnum2(){
 }
 
 //Kertolasku
-let number5= (Math.floor(Math.random()*(50-10+1)+10)) ;
+let number5= (Math.floor(Math.random()*(20-10+1)+5)) ;
 let number6= (Math.floor(Math.random()*(10-5+1)+2)) ;
 document.getElementById("Kertolasku").innerHTML = "Kertolasku: "+number5 + "*" + number6;
 
@@ -119,7 +119,19 @@ function addall() {
     resultnum3()
     resultnum4()
     resultnum5()
-    document.getElementById("count").innerHTML=count;
+    document.getElementById("count").innerHTML="Pisteesi on "+count;
+
+
+    if(count <= 4){
+        document.getElementById("keepitup").style.display="inline";
+    document.getElementById("marks").innerHTML="HYVÄ! YRITTÄKÄÄ UUDESTAAN.";
+
+    }
+
+   else{
+    
+    document.getElementById("good").style.display="inline";
+    document.getElementById("marks").innerHTML="HIENOA! SAIT TÄYDEEN PISTEEN.";}
 }
 
 
