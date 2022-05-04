@@ -12,7 +12,42 @@
     <link rel="stylesheet" href="../css/lippuvisa.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Etusivu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tehtävät ja tietovisat
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/kansallissymbolit.html">Kansallissymbolivisa</a></li>
+              <li><a class="dropdown-item" href="../pages/Historiavisa.html">Historiavisa</a></li>
+              <li><a class="dropdown-item" href="../pages/Maantietovisa.html">Maantietovisa</a></li>
+              <li><a class="dropdown-item" href="../pages/sanakoe.html">Englannin sanakoe</a></li>
+              <li><a class="dropdown-item" href="../pages/matikkatesti.html">Matikkavisa</a></li>
+              <li><a class="dropdown-item" href="../pages/matikkaWep.html">Matikkapaketti</a></li>
+            </li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/tietoja.html">Tietoja</a>
+            
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">Etusivu</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +55,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tehtävät ja tietovisat
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/kansallissymbolit.html">Kansallissymbolivisa</a></li>
+                  <li><a class="dropdown-item" href="../pages/Historiavisa.html">Historiavisa</a></li>
+                  <li><a class="dropdown-item" href="../pages/matikkatesti.html">Matikkapaketti</a></li>
+                  <li><a class="dropdown-item" href="../pages/matikkaWep.html">Matikkatesti</a></li>
+                  <li><a class="dropdown-item" href="#">Englannin sanakoe</a></li>
+                  <li><a class="dropdown-item" href="../pages/tietoja.html">Tietoja</a></li>
+                </ul>
+              </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Tehtävät ja tietovisat
@@ -39,7 +87,7 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
       <header>
         <img src="../images/otsikko.jpg" alt="otsikko" class="header">
     </header>
@@ -168,7 +216,9 @@
         <br>
         <input type="radio" name="choice" id="japani5" value="4"/>Japani
         <br>
-        <button type="button" class="btn btn-info" id="japani">Lähetä vastaus</button>
+        <p>Laske yhteispisteesi alla olevasta painikkeesta.</p><br>
+        <p>Tarkista ensin, että olet vastannut jokaiseen kysymykseen.</p><br>
+        <button type="button" class="btn btn-info" id="japani">Lähetä vastaus ja laske yhteispisteet</button>
         <!-- <button id="japani">Lähetä vastaus</button><br> -->
         <p><span id="palaute5"></span><br>
         <p>Yhteispisteesi: <span id="pisteet5"></span><br>
