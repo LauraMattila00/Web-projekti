@@ -8,13 +8,7 @@ body {
 html , body {
     height: 100%;
   }
-  #content {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 150px tepea (4,1fr);
-    grid-template-rows: auto;
-    font-family: 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif;
-  }
+ 
 *{
     text-align: center;
 }
@@ -23,15 +17,12 @@ h1{
     color: black;
     text-size-adjust: 30;
     line-height: 3;
-    margin-top:8;
-    
-  
+    margin-top:10;
+    font-family: 'Happy Monkey', cursive; 
+    padding: 0.5em;
+
 }
-footer {
-    border-top: 1px solid rgb(138, 135, 135);
-    padding: 1rem;
-  }
-header {
+  header {
    
     background-color: rgb(255,239,186);
     grid-column: 1/6;
@@ -43,12 +34,12 @@ header {
 }
 h2{
     background-color: #f2f7f9;
-    margin-top: 4;
-    padding-left: 4px;
-    line-height: 2;
-    border-radius: 10px;  
+    margin-top: 5;
+    border-radius: 20em; 
+    border-color: black; 
     font-family: 'Happy Monkey', cursive;
     text-emphasis-color: black;
+    padding: 0.2em;
 }
 *{
     border-color: black;
@@ -105,9 +96,24 @@ input {
     border-width: 8 em;
     background-color: #b04fa3;
     margin-top: 8;
-    
 
 }
+
+/* FOOTER*/
+footer {
+    border-top: 1px solid rgb(138, 135, 135);
+    padding-top: 1rem;
+    margin-top: 2rem;
+  }
+  
+  footer span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: black
+  }
+
+
 /* margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 background: linear-gradient(to right,transparent 50%, white 30%, white 90%,transparent 0)
