@@ -1,3 +1,5 @@
+
+
 body{
     background: rgb(255,239,186);
     background: linear-gradient(90deg, rgba(255,239,186,1) 41%,
@@ -7,17 +9,14 @@ body{
     align-items: center;
     font-family: 'Happy Monkey', cursive;
     margin: 15px;  
-     
-}
-
-p{
-    font-size: 1px;
+    border-radius: 8px;
+   
 }
 
 .girl{
-width: 100px;
-height: 180px;
 margin-right: -50px;
+width: 100px;
+height: 200px;
 }
 
 nav{
@@ -29,28 +28,32 @@ margin: 10px;
 }
 .otsikko{
     font-size: 60px;
+background-color: aliceblue;
+border: 1px solid black;
+text-align: center;
+width: 30%;
+border-radius:5px 25px 15px;
+box-shadow: 15px 10px 10px;
+margin-bottom: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
-padding-right: 80px;
-padding-left: 80px;
-background-color: aliceblue;
-border: 1px solid black;
-border-radius:15px 50px 30px;
-margin-bottom: 30px;
+
+
 }
 header{
-font-size: 60px;
-padding-top: 30px;
-padding-bottom: 70px;
-padding-right: 150px;
-padding-left: 150px;
+font-size: 50px;
+text-align: center;
 background-color: aliceblue;
 border: 1px solid black;
-margin-left: 10px;
-margin-right: 10px;
-border-radius: 15px 50px 30px;
+width: 60%;
+border-radius:15px 50px 25px;
+box-shadow: 15px 10px 10px rgb(72, 93, 80);
 margin-bottom: 40px;
-
+}
+header img{
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .aristoteles{
@@ -58,6 +61,7 @@ margin-bottom: 40px;
     border: 2px solid aliceblue;
     border-radius: 4px;
     padding: 5px;
+    
 }
 .aristoteles:hover {
     box-shadow: 0 0 2px 1px #d6ac5c;
@@ -67,9 +71,9 @@ margin-bottom: 40px;
 
 h1{
 font-size: 40px;
-font-family:'Times New Roman', Times, serif
 
 }
+
 p{
 font-size: 20px;
 }
@@ -77,6 +81,7 @@ font-size: 20px;
 ol{
 list-style-type:decimal;
 }
+
 .alias1{
 margin-bottom: 5px;
 }
@@ -87,7 +92,7 @@ content: text;
 appearance: none;
 height: 40px;
 width: 60px;
-background-color: #d5d5d5;
+background-color: aliceblue;
 border: 1px solid black;
 border-radius: 2.5px;
 cursor: pointer;
@@ -134,13 +139,10 @@ background-image: none;
 -moz-appearance: none;
 -ms-appearance: none;
 box-shadow: none;
-background-color:#d5d5d5;
+background-color:aliceblue;
 width: 10em;
 border-radius: .25em;
 margin-bottom: 10px;
-}
-.select::after{
-content: "\25BC";
 }
 
 button{
@@ -164,4 +166,27 @@ footer{
 
 .vastaus{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:991px){
+
+    header{
+        font-size: 40px; 
+        width: 80%;  
+    }
+
+    .girl{
+     width: 0px;
+     height: 0px;
+    
+    }
+
+    .otsikko{
+        font-size:40px;
+        width: 90%;
+    }
+nav{
+    position:relative; right: 50px;
+}
+
 }
