@@ -1,8 +1,6 @@
 let pisteet=0
 
-
-
-
+//Ensimmäinen funktio
 function myFunction (){
 
     let four=document.getElementById("HistoriaNeljäs")
@@ -16,6 +14,7 @@ function myFunction (){
    document.getElementById("button1").style.display="none";
   }
   
+  //toinen funktio
   function myFunction2 (){
     let option1=document.getElementById("Aristoteles").value
     
@@ -30,6 +29,7 @@ function myFunction (){
   document.getElementById("button2").style.display="none";
   }
   
+  //kolmas funktio
   function myFunction3 (){
   let option1= document.getElementById("Porvari1").value
   let option2= document.getElementById("Porvari2").value
@@ -46,6 +46,7 @@ function myFunction (){
   
   }
   
+  //Neljäs funktio
   function myFunction4 (){
   let input=document.getElementById("input1").value
   let oikea="Mikael Agricola"
@@ -59,11 +60,12 @@ function myFunction (){
   
   }
   
+  //viides funktio
   function myFunction5 (){
     let option1=document.getElementById("q1")
     if (option1.checked==true){
       pisteet++;
-      document.getElementById("vastaus5").innerHTML="oikein, sait pisteen"
+      document.getElementById("vastaus5").innerHTML="oikein. Historia kertoo, että tutkimusmatkailija Kristoffer Kolumbus virallisesti löysi Amerikan vuonna 1492"
     }
     else{
       document.getElementById("vastaus5").innerHTML="väärin. Amerikka löydettiin kyseisenä vuonna"
@@ -71,6 +73,7 @@ function myFunction (){
     document.getElementById("button5").style.display="none";
   }
 
+  //kuudes funktio
   function myFunction6 (){
     
     if (pisteet==0){
@@ -86,6 +89,6 @@ function myFunction (){
   }else if(pisteet==5){
     document.getElementById("vastaus6").innerHTML="Hyvä! vastasit kaikkiin kysymyksiin oikein"
   }
-console.log(pisteet)
+
 
 }

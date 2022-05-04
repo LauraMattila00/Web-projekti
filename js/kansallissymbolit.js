@@ -128,7 +128,6 @@ function question5 () {
 
 // Results:
 
-
 function calcPoints () {
     document.getElementById("points").style.display = "block";
 
