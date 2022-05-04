@@ -21,7 +21,7 @@ header {
 }
 
 header img{
-    height: 250px;
+    height: 220px;
     padding: 10px;
     }
 
@@ -39,9 +39,12 @@ input {
     background: white;
 }
 button {
-    margin-left: 10px;
+    margin:auto;
     padding: 10px;
+    width: 8em;
+    height: 4em;
     background: white;
+    
 }
 
 #tulokset {
