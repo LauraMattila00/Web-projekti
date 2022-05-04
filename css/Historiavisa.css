@@ -12,10 +12,6 @@ body{
    
 }
 
-p{
-    font-size: 1px;
-}
-
 .girl{
 margin-right: -50px;
 width: 100px;
@@ -73,7 +69,7 @@ header img{
 
 h1{
 font-size: 40px;
-font-family:'Times New Roman', Times, serif
+
 
 }
 p{

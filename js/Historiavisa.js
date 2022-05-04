@@ -1,5 +1,5 @@
 let pisteet=0
-
+let vastaukset=0
 //Ensimmäinen funktio
 function myFunction (){
 
@@ -7,8 +7,10 @@ function myFunction (){
     document.getElementById("vastaus1").preventdefault
    if (four.checked==true){
      pisteet++;
-     document.getElementById("vastaus1").innerHTML="Oikein, sait pisteen"
+     vastaukset++;
+     document.getElementById("vastaus1").innerHTML="Oikein. Rooman valtakunta tunnetaan sen edistyneestä arkkitehtuurista, sen tieverkostoista, että kulttuurista"
    }else{
+     vastaukset++;
      document.getElementById("vastaus1").innerHTML="väärin. Oikea vastaus on Antiikin Rooma"
    }
    document.getElementById("button1").style.display="none";
@@ -22,8 +24,10 @@ function myFunction (){
   
   if (option1==1){
     pisteet++;
-    document.getElementById("vastaus2").innerHTML+="oikein, sait pisteen"
+    vastaukset++;
+    document.getElementById("vastaus2").innerHTML+="oikein. Aristoteleksen filosofiset pohdinnat ovat vaikuttaneet todella paljon länsimaalaiseen ajattelukulttuuriin"
   }else{
+    vastaukset++;
     document.getElementById("vastaus2").innerHTML="väärin. Oikea vastaus on Aristoteles. "
   }
   document.getElementById("button2").style.display="none";
@@ -38,8 +42,10 @@ function myFunction (){
   
   if (option1==1&&option2==4&&option3==3&&option4==2){
     pisteet++;
-    document.getElementById("vastaus3").innerHTML="oikein, sait pisteen"
+    vastaukset++;
+    document.getElementById("vastaus3").innerHTML="oikein. Aatelisia pidettiin yhteiskunnan kermana keskiajalla. Vain kuninkaallisten säätyä pidettiin heitä arvokkaampana hierarkkisessa yhteiskunnassa"
   }else{
+    vastaukset++;
     document.getElementById("vastaus3").innerHTML="väärin. Keskiajan säätyjen oikea järjestys olisi aatelinen, pappi, porvari ja viimeisenä talonpoika"
   }
   document.getElementById("button3").style.display="none";
@@ -52,8 +58,10 @@ function myFunction (){
   let oikea="Mikael Agricola"
   if(input==oikea){
     pisteet++;
-  document.getElementById("vastaus4").innerHTML="oikein, sait pisteen"
+    vastaukset++;
+  document.getElementById("vastaus4").innerHTML="oikein. Mikael Agricola loi pohjan Suomen kielen kehitykselle"
   }else{
+    vastaukset++;
   document.getElementById("vastaus4").innerHTML="väärin. Oikea vastaus olisi ollut Mikael Agricola"
   }
   document.getElementById("button4").style.display="none";
@@ -65,9 +73,11 @@ function myFunction (){
     let option1=document.getElementById("q1")
     if (option1.checked==true){
       pisteet++;
+      vastaukset++;
       document.getElementById("vastaus5").innerHTML="oikein. Historia kertoo, että tutkimusmatkailija Kristoffer Kolumbus virallisesti löysi Amerikan vuonna 1492"
     }
     else{
+      vastaukset++;
       document.getElementById("vastaus5").innerHTML="väärin. Amerikka löydettiin kyseisenä vuonna"
     }
     document.getElementById("button5").style.display="none";
@@ -76,19 +86,22 @@ function myFunction (){
   //kuudes funktio
   function myFunction6 (){
     
-    if (pisteet==0){
+    if (pisteet==0&&vastaukset==5){
       document.getElementById("vastaus6").innerHTML="sait 0 pistettä viidestä. Tämä on huono tulos."
-    }else if(pisteet==1){ 
+    }else if(pisteet==1&&vastaukset==5){ 
     document.getElementById("vastaus6").innerHTML="Sait vain 1 pisteen viidestä"
-  }else if(pisteet==2){
+  }else if(pisteet==2&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Sait vain 2 pistettä viidestä"
-  }else if(pisteet==3){
+  }else if(pisteet==3&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Sait 3 pistettä viidestä"
-  }else if(pisteet==4){
+  }else if(pisteet==4&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Hyvä! Sait 4 pistettä viidestä"
-  }else if(pisteet==5){
+  }else if(pisteet==5&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Hyvä! vastasit kaikkiin kysymyksiin oikein"
+  }else{
+    alert("vastaa kaikkiin kysymyksiin, ennen kuin lopetat")
+    document.getElementById("vastaus6").innerHTML=""
   }
 
+  }
 
-}
