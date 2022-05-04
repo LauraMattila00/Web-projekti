@@ -2,7 +2,7 @@ let pisteet=0
 
 
 
-
+//Ensimmäinen funktio
 function myFunction (){
 
     let four=document.getElementById("HistoriaNeljäs")
@@ -16,6 +16,7 @@ function myFunction (){
    document.getElementById("button1").style.display="none";
   }
   
+  //toinen funktio
   function myFunction2 (){
     let option1=document.getElementById("Aristoteles").value
     
@@ -30,6 +31,7 @@ function myFunction (){
   document.getElementById("button2").style.display="none";
   }
   
+  //kolmas funktio
   function myFunction3 (){
   let option1= document.getElementById("Porvari1").value
   let option2= document.getElementById("Porvari2").value
@@ -46,6 +48,7 @@ function myFunction (){
   
   }
   
+  //Neljäs funktio
   function myFunction4 (){
   let input=document.getElementById("input1").value
   let oikea="Mikael Agricola"
@@ -59,6 +62,7 @@ function myFunction (){
   
   }
   
+  //viides funktio
   function myFunction5 (){
     let option1=document.getElementById("q1")
     if (option1.checked==true){
@@ -71,6 +75,7 @@ function myFunction (){
     document.getElementById("button5").style.display="none";
   }
 
+  //kuudes funktio
   function myFunction6 (){
     
     if (pisteet==0){
@@ -86,6 +91,6 @@ function myFunction (){
   }else if(pisteet==5){
     document.getElementById("vastaus6").innerHTML="Hyvä! vastasit kaikkiin kysymyksiin oikein"
   }
-console.log(pisteet)
+
 
 }
