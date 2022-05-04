@@ -1,0 +1,67 @@
+body {
+    background: rgb(255,239,186);
+    background: linear-gradient(90deg, rgba(255,239,186,1) 41%, rgba(199,199,199,1) 94%);
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+}
+
+  .content {
+      text-align: left;
+      margin-left: 30px;
+      margin-top: 50px;
+      font-size: 20px;
+      padding: 5px;
+  }
+  
+  header {
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: white;
+    font-size: 30px;
+}
+
+  header img{
+    height: 220px;
+    padding: 10px;
+    }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    column-gap: 10px;
+    text-align: left;
+  }
+
+  .grid-item {
+    font-size: 20px;
+  }
+
+  .grid-item span {
+      font-weight: bold;
+  }
+
+  footer {
+    border-top: 1px solid rgb(138, 135, 135);
+    padding: 1rem;
+    margin-top: 30px;
+    display: block;
+  }
+
+  .luettelo h2 {
+      padding: 10px;
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .luettelo {
+      text-align: left;
+      list-style: none;
+      margin-left: 30px;
+      font-size: 15px;
+  }
+  
