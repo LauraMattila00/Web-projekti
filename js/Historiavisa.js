@@ -59,7 +59,7 @@ function myFunction (){
   document.getElementById("button4").style.display="none";
   
   }
-  
+ 
   //viides funktio
   function myFunction5 (){
     let option1=document.getElementById("q1")
