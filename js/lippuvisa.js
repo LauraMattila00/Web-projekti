@@ -1,5 +1,9 @@
 let pisteet = 0;
 
+document.getElementById("yhtpisteetkuva1_2").style.display = "none";
+document.getElementById("yhtpisteetkuva3").style.display = "none";
+document.getElementById("yhtpisteetkuva4_5").style.display = "none";
+
 document.getElementById("sveitsi").onclick = function () {
     if (document.getElementById("sveitsi1").checked == true) {
         pisteet++;
@@ -61,6 +65,22 @@ document.getElementById("japani").onclick = function () {
         document.getElementById("pisteet5").innerHTML = pisteet;
         document.getElementById("palaute5").innerHTML = "Väärä vastaus! Kuvassa on Japanin lippu."
     }
+    if (pisteet > 3) {
+        document.getElementById("yhtpisteet4_5").innerHTML = "Mahtavaa toimintaa!"
+        document.getElementById("yhtpisteetkuva4_5").style.display = "block";
+        document.getElementById("yhtpisteetkuva3").style.display = "none";
+        document.getElementById("yhtpisteetkuva1_2").style.display = "none";
+    } else if (pisteet==3) {
+        document.getElementById("yhtpisteet3").innerHTML = "Hyvää työtä! Pystytkö vielä parempaan?"
+        document.getElementById("yhtpisteetkuva3").style.display = "block";
+        document.getElementById("yhtpisteetkuva4_5").style.display = "none";
+        document.getElementById("yhtpisteetkuva1_2").style.display = "none";
+    } else if (pisteet < 3) {
+        document.getElementById("yhtpisteet1_2").innerHTML = "Harjoittele vielä!"
+        document.getElementById("yhtpisteetkuva1_2").style.display = "block";
+        document.getElementById("yhtpisteetkuva3").style.display = "none";
+        document.getElementById("yhtpisteetkuva4_5").style.display = "none";
+        }
     document.getElementById("japani").style.display = "none";
     return false;
 }

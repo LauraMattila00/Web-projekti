@@ -6,12 +6,64 @@ body{
     flex-flow: column wrap; 
     align-items: center;
     font-family: 'Happy Monkey', cursive;
+    margin: 15px;  
      
 }
 
-header{
-font-size: 50px;
+p{
+    font-size: 1px;
 }
+
+.girl{
+width: 100px;
+height: 180px;
+margin-right: -50px;
+}
+
+nav{
+    position: relative; right: 750px;
+    }
+.kysymys{
+margin: 10px;
+
+}
+.otsikko{
+    font-size: 60px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 80px;
+padding-left: 80px;
+background-color: aliceblue;
+border: 1px solid black;
+border-radius:15px 50px 30px;
+margin-bottom: 30px;
+}
+header{
+font-size: 60px;
+padding-top: 30px;
+padding-bottom: 70px;
+padding-right: 150px;
+padding-left: 150px;
+background-color: aliceblue;
+border: 1px solid black;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 15px 50px 30px;
+margin-bottom: 40px;
+
+}
+
+.aristoteles{
+    margin-bottom: 30px;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+.aristoteles:hover {
+    box-shadow: 0 0 2px 1px #d6ac5c;
+    width: 303px;
+    height: 303px;
+  }
 
 h1{
 font-size: 40px;
@@ -44,6 +96,9 @@ justify-content: center;
 text-align: center;
 vertical-align: middle;
 
+}
+input:hover{
+    box-shadow: 0 0 2px 1px #d6ac5c;
 }
 
 
@@ -90,4 +145,23 @@ content: "\25BC";
 
 button{
 padding: 7.5px;
+background-color:#d6ac5c ;
+border-radius: 3px 5px 5px;
+}
+
+button:hover{
+    box-shadow: 0 0 2px 1px #d6ac5c;
+}
+
+footer{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: black;
+    padding-bottom: 80px;
+}
+
+.vastaus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
