@@ -124,14 +124,14 @@ function addall() {
 
     if(count <= 4){
         document.getElementById("keepitup").style.display="inline";
-    document.getElementById("praveen").innerHTML="HYVÄÄ SAIT TÄYDEEN PISTEEN.";
+    document.getElementById("marks").innerHTML="HYVÄ! YRITTÄKÄÄ UUDESTAAN.";
 
     }
 
    else{
     
     document.getElementById("good").style.display="inline";
-    document.getElementById("praveen").innerHTML="HYVÄÄ SAIT TÄYDEEN PISTEEN.";}
+    document.getElementById("marks").innerHTML="HIENOA! SAIT TÄYDEEN PISTEEN.";}
 }
 
 
