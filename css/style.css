@@ -77,7 +77,7 @@ input {
 }
 #wrong1,#wrong2,#wrong3,#wrong4,#wrong5{
     background-color: rgb(254, 116, 116);
-    font-size: 62%;
+    font-size: 68%;
     margin: 5%;
    border-color: black;
    border-radius: 35em;
@@ -88,11 +88,7 @@ input {
     display:none;
     width: 10px;
     height:10 px;
-   align-items: center;
-   grid-column: 1/6;
-   border: black;
-   border: 2px solid;
-   border-radius: 19px;
+  
     
 }
 #count,#marks{
@@ -101,9 +97,10 @@ input {
     font-size: 120%;
     margin: 8%;
    border-color: black;
-   border-radius: 20%;
+   border-radius: 15%;
   align-items: center;
- 
+  border-radius: 35em;
+  border-width: 10em;
 }
 
 
