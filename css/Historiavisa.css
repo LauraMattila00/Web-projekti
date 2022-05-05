@@ -1,56 +1,63 @@
+
+
 body{
     background: rgb(255,239,186);
     background: linear-gradient(90deg, rgba(255,239,186,1) 41%,
     rgba(199,199,199,1) 94%);
-    display: flex;   
-    flex-flow: column wrap; 
-    align-items: center;
     font-family: 'Happy Monkey', cursive;
     margin: 15px;  
-     
-}
+    border-radius: 8px;
+   width: 99%;
+   display: flex;
+   flex-flow: column wrap;
+   align-items: center;
 
-p{
-    font-size: 1px;
 }
 
 .girl{
-width: 100px;
-height: 180px;
 margin-right: -50px;
+width: 100px;
+height: 200px;
 }
 
 nav{
     position: relative; right: 750px;
     }
+
 .kysymys{
 margin: 10px;
+align-items: center;
+border-radius: 8px;
 
 }
 .otsikko{
     font-size: 60px;
+background-color: aliceblue;
+border: 1px solid black;
+text-align: center;
+width: 40%;
+border-radius:5px 25px 15px;
+box-shadow: 15px 10px 10px;
+margin-bottom: 30px;
 padding-top: 30px;
 padding-bottom: 30px;
-padding-right: 80px;
-padding-left: 80px;
-background-color: aliceblue;
-border: 1px solid black;
-border-radius:15px 50px 30px;
-margin-bottom: 30px;
+
+
 }
 header{
-font-size: 60px;
-padding-top: 30px;
-padding-bottom: 70px;
-padding-right: 150px;
-padding-left: 150px;
+font-size: 50px;
+text-align: center;
 background-color: aliceblue;
 border: 1px solid black;
-margin-left: 10px;
-margin-right: 10px;
-border-radius: 15px 50px 30px;
+width: 60%;
+border-radius:15px 50px 25px;
+box-shadow: 15px 10px 10px rgb(72, 93, 80);
 margin-bottom: 40px;
-
+}
+header img{
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .aristoteles{
@@ -58,6 +65,7 @@ margin-bottom: 40px;
     border: 2px solid aliceblue;
     border-radius: 4px;
     padding: 5px;
+    
 }
 .aristoteles:hover {
     box-shadow: 0 0 2px 1px #d6ac5c;
@@ -67,9 +75,9 @@ margin-bottom: 40px;
 
 h1{
 font-size: 40px;
-font-family:'Times New Roman', Times, serif
 
 }
+
 p{
 font-size: 20px;
 }
@@ -77,6 +85,7 @@ font-size: 20px;
 ol{
 list-style-type:decimal;
 }
+
 .alias1{
 margin-bottom: 5px;
 }
@@ -87,7 +96,7 @@ content: text;
 appearance: none;
 height: 40px;
 width: 60px;
-background-color: #d5d5d5;
+background-color: aliceblue;
 border: 1px solid black;
 border-radius: 2.5px;
 cursor: pointer;
@@ -95,7 +104,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 vertical-align: middle;
-
+box-shadow: 1px 1px 1px;
 }
 input:hover{
     box-shadow: 0 0 2px 1px #d6ac5c;
@@ -134,23 +143,22 @@ background-image: none;
 -moz-appearance: none;
 -ms-appearance: none;
 box-shadow: none;
-background-color:#d5d5d5;
+background-color:aliceblue;
 width: 10em;
 border-radius: .25em;
 margin-bottom: 10px;
-}
-.select::after{
-content: "\25BC";
+box-shadow: 2px 2px 2px;
 }
 
 button{
 padding: 7.5px;
 background-color:#d6ac5c ;
 border-radius: 3px 5px 5px;
+box-shadow: 3px 3px 3px;
 }
 
 button:hover{
-    box-shadow: 0 0 2px 1px #d6ac5c;
+    box-shadow: 0 0 5px 1px #d6ac5c;
 }
 
 footer{
@@ -164,4 +172,34 @@ footer{
 
 .vastaus{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media (max-width:1855px){
+    nav{
+        position: relative; right: 50px;
+    }
+}
+
+@media (max-width:991px){
+
+    header{
+        font-size: 40px; 
+        width: 80%;  
+    }
+
+    .girl{
+     width: 0px;
+     height: 0px;
+    
+    }
+
+    .otsikko{
+        font-size:40px;
+        width: 90%;
+    }
+nav{
+    position:relative; right: 50px;
+}
+
 }
