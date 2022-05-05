@@ -100,7 +100,7 @@ function myFunction (){
   }else if(pisteet==5&&vastaukset==5){
     document.getElementById("vastaus6").innerHTML="Hyvä! vastasit kaikkiin kysymyksiin oikein"
   }else{
-    alert("vastaa kaikkiin kysymyksiin, ennen kuin lopetat")
+    alert("vastaa kaikkiin kysymyksiin ennen kuin lopetat")
     document.getElementById("vastaus6").innerHTML=""
   }
 
