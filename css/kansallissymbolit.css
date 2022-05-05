@@ -23,10 +23,7 @@ h2 {
 /* Images */
 
 header img {
-  width: 60%;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px rgb(72, 93, 80);
-  margin-bottom: 20px;
+  width: 90%;
 }
 
 .info img {
