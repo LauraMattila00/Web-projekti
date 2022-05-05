@@ -121,7 +121,7 @@ function addall() {
     resultnum5()
     document.getElementById("count").innerHTML="Pisteesi on "+count;
 
-
+/*styling*/
     if(count <= 4){
         document.getElementById("keepitup").style.display="inline";
     document.getElementById("marks").innerHTML="HYVÄ! YRITTÄKÄÄ UUDESTAAN.";
@@ -133,7 +133,5 @@ function addall() {
     document.getElementById("good").style.display="inline";
     document.getElementById("marks").innerHTML="HIENOA! SAIT TÄYDEEN PISTEEN.";}
 }
-
-
 
  
