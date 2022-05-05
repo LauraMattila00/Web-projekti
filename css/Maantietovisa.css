@@ -8,15 +8,12 @@ form {
 h1 {
     padding: 5px;
     text-align: center;
+    font-family: 'Happy Monkey', cursive;
 }
 
 p {
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-}
-
-h1 {
-    font-family: 'Happy Monkey', cursive;
 }
 
 h3 {
