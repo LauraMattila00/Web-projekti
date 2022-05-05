@@ -21,6 +21,7 @@ height: 200px;
 
 nav{
     position: relative; right: 750px;
+    
     }
 .kysymys{
 margin: 10px;
@@ -100,7 +101,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 vertical-align: middle;
-
+box-shadow: 3px 3px 3px;
 }
 input:hover{
     box-shadow: 0 0 2px 1px #d6ac5c;
@@ -143,16 +144,18 @@ background-color:aliceblue;
 width: 10em;
 border-radius: .25em;
 margin-bottom: 10px;
+box-shadow: 2px 2px 2px;
 }
 
 button{
 padding: 7.5px;
 background-color:#d6ac5c ;
 border-radius: 3px 5px 5px;
+box-shadow: 3px 3px 3px;
 }
 
 button:hover{
-    box-shadow: 0 0 2px 1px #d6ac5c;
+    box-shadow: 0 0 5px 1px #d6ac5c;
 }
 
 footer{
